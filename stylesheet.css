@@ -1,4 +1,17 @@
 body{
   font-family: Athelas;
-  margin:100px;
+  margin:30px;
+  text-align:center;
+  line-height: 30px;
+
+}
+
+h1{
+  line-height: 50px;
+}
+
+.content{
+  display: inline-block;
+  width: 750px;
+
 }
