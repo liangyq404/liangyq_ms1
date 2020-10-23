@@ -19,16 +19,20 @@ h2 {
   color: #ff4081;
 }
 
-h3 {
+.sidenav {
   line-height: 30px;
   font-family: 'Raleway', sans-serif;
-  font-weight: bold;
-  color: #ff4081;
+  font-weight: lighter;
+  color:black;
+}
+
+h3{
+    /* color: #ff4081; */
 }
 
 h4{
   line-height: 10px;
-  font-weight: normal;
+  font-weight: lighter;
   /* padding-left: 20px; */
 }
 
@@ -63,9 +67,7 @@ a:hover {
 }
 
 .weekCount{
-
   font-weight: bold;
-
 }
 
 .week1_ps {
