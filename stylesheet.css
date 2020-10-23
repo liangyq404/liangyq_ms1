@@ -70,12 +70,3 @@ a:hover {
   /* display: inline-block; */
   float: left;
 }
-
-.weekCount {
-  font-weight: bold;
-}
-
-.week1_ps {
-  margin-top: 20px;
-  /* border: 1px solid red; */
-}
