@@ -3,7 +3,7 @@ body {
   font-weight: lighter;
   line-height: 30px;
   margin-top: 50px;
-  margin-left: 70px;
+  margin-left: 120px;
 }
 
 h1 {
@@ -19,8 +19,33 @@ h2 {
   color: #ff4081;
 }
 
+h3 {
+  line-height: 30px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  color: #ff4081;
+}
+
+h4{
+  line-height: 10px;
+  font-weight: normal;
+  /* padding-left: 20px; */
+}
+
 p {
   padding-bottom: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  background-color: RGB(76, 81, 197);
+  font-weight: medium;
+  color: RGB(253, 250, 243);
+  transition: background-color 0.2s linear;
 }
 
 .sidebar {
@@ -31,10 +56,16 @@ p {
 }
 
 .content {
-  padding-left: 500px;
+  padding-left: 400px;
   width: 50%;
   /* display: inline-block; */
   float: left;
+}
+
+.weekCount{
+
+  font-weight: bold;
+
 }
 
 .week1_ps {
