@@ -1,15 +1,16 @@
 body {
   font-family: 'Raleway', sans-serif;
-  font-weight: 400;
-  margin: 100px;
+  font-weight: lighter;
   line-height: 30px;
+  margin-top: 50px;
+  margin-left: 70px;
 }
 
-h1{
+h1 {
   font-family: 'Martel', serif;
   line-height: 50px;
   color: #ff4081;
-  letter-spacing:4px;
+  letter-spacing: 4px;
 }
 
 h2 {
@@ -20,19 +21,23 @@ h2 {
 
 p {
   padding-bottom: 15px;
-  font-weight: lighter;
 }
 
-.sidebar{
-  display: inline-block;
-  width: 400px;
+.sidebar {
+  /* display: inline-block; */
+  float: left;
+  position: fixed;
+  width: 25%;
 }
 
-worklist{
-  display: inline-block;
-  /* float:left; */
-  margin-left: 450px;
+.content {
+  padding-left: 500px;
+  width: 50%;
+  /* display: inline-block; */
+  float: left;
 }
-.ps {
-  border: 3px black;
+
+.week1_ps {
+  margin-top: 20px;
+  /* border: 1px solid red; */
 }
