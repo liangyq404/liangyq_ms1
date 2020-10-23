@@ -1,17 +1,38 @@
-body{
-  font-family: Athelas;
-  margin:30px;
-  text-align:center;
+body {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  margin: 100px;
   line-height: 30px;
-
 }
 
 h1{
+  font-family: 'Martel', serif;
   line-height: 50px;
+  color: #ff4081;
+  letter-spacing:4px;
 }
 
-.content{
-  display: inline-block;
-  width: 750px;
+h2 {
+  line-height: 40px;
+  font-family: 'Martel', serif;
+  color: #ff4081;
+}
 
+p {
+  padding-bottom: 15px;
+  font-weight: lighter;
+}
+
+.sidebar{
+  display: inline-block;
+  width: 400px;
+}
+
+worklist{
+  display: inline-block;
+  /* float:left; */
+  margin-left: 450px;
+}
+.ps {
+  border: 3px black;
 }
