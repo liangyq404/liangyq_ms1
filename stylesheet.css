@@ -7,6 +7,23 @@ body {
   /* font-size: 15px; */
 }
 
+@media only screen and (min-width: 600px) {
+  .sidebar {
+    position: relative;
+    float: left;
+  }
+
+  .content {
+    width: 100%;
+    float: left;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
 p {
   padding-bottom: 10px;
 }
@@ -72,8 +89,8 @@ h5 {
 }
 
 .content {
-  padding-left: 470px;
-  width: 50%;
+  padding-left: 35%;
+  width: 55%;
   /* display: inline-block; */
   float: left;
 }
@@ -101,7 +118,7 @@ li a {
   text-decoration: underline;
 }
 
-.highlight{
+.highlight {
   font-weight: bold;
   color: RGB(76, 81, 197);
 }
