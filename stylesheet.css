@@ -42,7 +42,7 @@ h4 {
 }
 
 p {
-  padding-bottom: 15px;
+  padding-bottom: 10px;
 }
 
 a {
@@ -69,4 +69,8 @@ a:hover {
   width: 50%;
   /* display: inline-block; */
   float: left;
+}
+.uniLogo{
+  margin: 0 auto;
+  letter-spacing: 20px;
 }
