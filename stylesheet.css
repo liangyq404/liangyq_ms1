@@ -87,3 +87,16 @@ ul, ol, li {
   padding: 0;
   list-style-position: inside;
 }
+
+.reference {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-style: italic;
+  font-family: inherit;
+  font-size: 15px;
+  color: #9e9e9e;
+}
+
+li a {
+  text-decoration: underline;
+}
