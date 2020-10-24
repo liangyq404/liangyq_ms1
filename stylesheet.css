@@ -100,3 +100,8 @@ ul, ol, li {
 li a {
   text-decoration: underline;
 }
+
+.highlight{
+  font-weight: bold;
+  color: RGB(76, 81, 197);
+}
