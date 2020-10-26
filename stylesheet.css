@@ -99,6 +99,10 @@ h5 {
     /* display: inline-block; */
     /* float: left; */
   }
+
+  iframe{
+    width: 100%;
+  }
 }
 
 .uniLogo {
