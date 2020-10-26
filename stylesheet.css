@@ -6,22 +6,9 @@ body {
   margin-left: 120px;
   /* font-size: 15px; */
 }
-
-@media only screen and (min-width: 600px) {
-  .sidebar {
-    position: relative;
-    float: left;
-  }
-
-  .content {
-    width: 100%;
-    float: left;
-  }
-
-  img {
-    width: 100%;
-    height: auto;
-  }
+img{
+  width:100%;
+  height: auto;
 }
 
 p {
@@ -90,9 +77,28 @@ h5 {
 
 .content {
   padding-left: 35%;
+  padding-top: 5px;
   width: 55%;
-  /* display: inline-block; */
   float: left;
+}
+
+@media only screen and (max-width: 900px) {
+.sidenav{
+  line-height: 70px;
+}
+  .sidebar {
+    position: static;
+    width: 100%;
+    float: none;
+  }
+
+  .content {
+    padding-left: 0;
+    margin-left: 0;
+    width: 90%;
+    /* display: inline-block; */
+    /* float: left; */
+  }
 }
 
 .uniLogo {
