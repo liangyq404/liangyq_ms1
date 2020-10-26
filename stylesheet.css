@@ -6,9 +6,11 @@ body {
   margin-left: 120px;
   /* font-size: 15px; */
 }
-img{
-  width:100%;
+
+img {
+  width: 100%;
   height: auto;
+  /* padding-top: 10px; */
 }
 
 p {
@@ -83,9 +85,10 @@ h5 {
 }
 
 @media only screen and (max-width: 900px) {
-.sidenav{
-  line-height: 70px;
-}
+  .sidenav {
+    line-height: 70px;
+  }
+
   .sidebar {
     position: static;
     width: 100%;
@@ -100,7 +103,7 @@ h5 {
     /* float: left; */
   }
 
-  iframe{
+  iframe {
     width: 100%;
   }
 }
@@ -133,6 +136,14 @@ li a {
   color: RGB(76, 81, 197);
 }
 
-.quote{
+.quote {
   font-style: italic;
+}
+
+.embed {
+  padding-top: 7px;
+  width: 200px;
+  float:left;
+  align: center;
+  padding-right: 10px;
 }
