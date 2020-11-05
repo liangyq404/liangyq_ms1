@@ -140,13 +140,6 @@ li a {
   font-style: italic;
 }
 
-.annotate {
-  font-style: italic;
-  font-family: inherit;
-  font-size: 15px;
-  color: #9e9e9e;
-}
-
 .embed {
   padding-top: 7px;
   width: 200px;
