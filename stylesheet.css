@@ -51,7 +51,7 @@ h3 {
 }
 
 h4 {
-  line-height: 15px;
+  line-height: 20px;
   font-weight: lighter;
   /* padding-left: 20px; */
 }
@@ -111,7 +111,7 @@ h5 {
 
 .uniLogo {
   margin: 0 auto;
-  letter-spacing: 5px;
+  letter-spacing: 15px;
 }
 
 ul, ol, li {
