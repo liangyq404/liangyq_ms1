@@ -51,7 +51,7 @@ h3 {
 }
 
 h4 {
-  line-height: 20px;
+  line-height: 15px;
   font-weight: lighter;
   /* padding-left: 20px; */
 }
@@ -64,7 +64,7 @@ h5 {
 }
 
 .sidenav {
-  line-height: 30px;
+  line-height: 25px;
   font-family: 'Raleway', sans-serif;
   font-weight: lighter;
   letter-spacing: 2px;
