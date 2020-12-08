@@ -30,6 +30,13 @@ a:hover {
   transition: background-color 0.2s linear;
 }
 
+/* homepage:hover{
+  background-color:#ffffff;
+  font-weight: medium;
+  color: RGB(253, 250, 243);
+  transition: background-color 0.2s linear;
+} */
+
 h1 {
   font-family: 'Martel', serif;
   line-height: 50px;
