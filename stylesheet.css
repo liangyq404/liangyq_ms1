@@ -170,3 +170,7 @@ iframe {
   font-weight: 300;
   text-align: center;
 }
+
+.framed{
+  border:1px solid #cfd8dc;
+}
